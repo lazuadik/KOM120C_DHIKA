@@ -1,0 +1,167 @@
+class person
+
+nama (string)
+usia (int)
+tinggi (int)
+berat (double)
+
+default constructor = 0 = string kosong
+
+setPerson = isi nilai
+
+baca n baris data yang isinya nama, usia, tinggi, dan berat
+program akan menulis sluruh nama dan usia, rata rata tinggi badan, banyak orang di atas rata-rata
+
+input
+bil bulat banyaknya baris 
+nama, usia, tinggi, berat dipisah spasi
+nama orang cuma satu kata
+
+output
+daftar nama orang dan usia
+rata-rata tinggi 
+banyaknya yg di atas rata rata
+
+---------------------------------------------------
+
+membuat program mengelola bilangan pecahan a b/c dimana a, b, c bulat positif (int)
+
+set a, b, c inisialilsasi a b/c
+p menampilkan bilangan pecahan sesederhana mungkin (print with gcd)
+add a b c menambah bilangan pecahan yang ada dengan a b/c
+mul a b c mengalikan bilangan pecahan yang ada dengan a b/c
+inc +1
+dec -1
+end
+
+bilangan pecahan sesederhana mungkin
+
+set 4 2 8
+p
+add 0 6 8
+inc
+p
+end
+
+------------------------------------------
+
+
+
+
+
+
+-------------------------------------------
+
+
+Hotspot
+
+x1 > x2
+x1 == x2 dan y1 > y2
+
+koordinat yang sama akan dianggap jadi satu titik
+diurutkan dari kanan atas sampai kiri bawah
+
+input
+N banyak titik hotspot
+[x y] koordinat titik sebanyak N
+
+---------------------------------------------
+
+keliling
+
+[SOLVED]
+
+-----------------------------------------------
+
+Pegawai
+
+2 tipe pegawai
+tetap -> gaji pokok dan uang lembut
+harian -> upah sebulan
+
+atribut
+id
+usia
+tipe -> 1 tetap, 2 harian
+income
+
+------------------------------------------------
+
+Silinder
+
+3 objek lingkaran, segiempat, silinder
+
+input
+
+diameter lingkaran (d)
+lebar segiempat (l)
+tinggi segiempat (h)
+
+volume silinder
+luas alas * tinggi 
+luas alas lingkaran = math.pi * diameter/2 * diameter/2
+tinggi = h
+
+dirata-ratain
+
+output 
+rata rata, dan ada brp di atas rata-rata
+
+-----------------------------------------------
+
+interface 2d
+x0,y0 sampai xa, ya (a = n-1 sisi)
+
+3 fungsi yang dapat dikerjakan
+set -> inisialisai nilai n
+print -> mencetak koordinat titik dan titik akhir ([x0,y0]-[x(n-1),y(n-1)]
+keliling -> hitung keliling dari poligon
+
+input
+bil bulat n
+koordinat (x,y)
+
+output
+[titik awal]-[titik akhir]
+keliling
+
+SOLVED
+
+-------------------------------------------------
+
+polymorphism abstract class
+
+input n
+diikuti n baris
+
+baris diawal 1 dan 2 bil desimal a dan b
+baris diawali 2 dan terdapat 4 bil bulat pqrs
+a = p/q b = r/s
+
+a+b
+
+input
+n
+bilangan
+indeks ke-i dan ke-j yang menunjukan awal dan akhir baris yang ingin ditampilkan
+
+SOLVED
+
+---------------------------------------------
+
+Kalkulator
+
+aritmatika dasar
+-tambah, kurang, kali, bagi
+
+aritmatika lanjut
+-akar, pangkat
+
+kalkulator saintifik
+bisa dua-duanya, dan bisa clear
+
+
+
+
+
+
